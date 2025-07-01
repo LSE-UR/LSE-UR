@@ -20,14 +20,12 @@ An Argilla instance was deployed on HuggingFace to validate the recorded signs. 
 
 
 ## Dataset Structure
+```
 BBDD_PATH
-├── videos
-│   ├── train_labels.csv
-│   ├── val_labels.csv
-│   └── test_labels.csv
 ├── VIDEOS
 │   ├── *.avi
 │   ├── *.mp4
 │   └── *.mp4
 └── skeleton
     └── *.txt
+```
