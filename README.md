@@ -56,3 +56,23 @@ BBDD_PATH
 └── skeleton
     └── *.txt
 ```
+
+## Acknowledgements
+
+The authors would like to thank .....
+
+## Cite this dataset
+
+Please cite this paper if you want to use this dataset in your research (papers, book chapters, conference proceedings, software, etc)
+xxx
+
+## Contacts
+
+Mayra Vanessa Alvear, maalvear@unirioja.es, vanessa.alvear@irsoluciones.es
+Jónathan Heras, jonathan.heras@unirioja.es
+Gadea Mata, gadea.mata@unirioja.es
+César Domínguez, cesar.dominguez@unirioja.es
+Miren Mirari San Martín Lacunza, mimartla@unirioja.es
+Manuel García, manuel.garciad@unirioja.es
+
+
