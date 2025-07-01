@@ -28,7 +28,7 @@ BBDD_PATH
 ├── realsense_and_dual_camera_modify_final.py
 ├── VIDEOS
 │   ├── *.avi
-│   ├── *.mp4
+│   ├── *.mkv
 │   └── *.mp4
 └── skeleton
     └── *.txt
