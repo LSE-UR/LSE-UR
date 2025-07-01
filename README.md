@@ -12,7 +12,7 @@ The full dataset can be downloaded at this website xx. The corresponding compres
 
 The LSE-UR is an online, public, and available dataset for the Spanish Sign Language (LSE, acronym in spanish). It has a variety of modalities and, as far as we know, is an order of magnitude larger than any other LSE dataset in terms of the number of videos and recording duration. It is remarkable the fact that it is built in different scenarios, it has multiple perspectives of the same action from a multi-camera system, which allows us to have diversity in the quality of the videos, which enables multimodal learning.
 
-The LSE-UR dataset provides a considerable variety of multi-modal data compared to existing datasets. 4 types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
+The LSE-UR dataset provides a considerable variety of multi-modal data compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
 
 These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc.
 
@@ -24,7 +24,7 @@ The dataset includes 35 signs performed by 43 subjects for 30 signs corresponds 
 
 ## Acquisition setup
 
-The acquisition experiment took place in two scenarios where an acquisition area at the University of La Rioja was reserved for the experimental setup. We present the 'Biblioteca studio' and the 'Blanco studio'. In 'Biblioteca studio' an Orbbec Femto Mega camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. In 'Blanco studio' an  Intel RealSense Depth Camera D457 camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. The frontal camera is placed on a tripod has a distance of 1.50m.
+The acquisition experiment took place in two scenarios where an acquisition area at the University of La Rioja was reserved for the experimental setup. We present the _Biblioteca studio_ and the _Blanco studio_. In _Biblioteca studio_ an Orbbec Femto Mega camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. In _Blanco studio_ an  Intel RealSense Depth Camera D457 camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. The frontal camera is placed on a tripod has a distance of 1.50m.
 
 
 ## Repository Structure
@@ -37,7 +37,7 @@ With all videos prepared, the script https://github.com/LSE-UR/LSE-UR/blob/main/
 
 For the scripts to run correctly, it's advisable to follow the same dataset structure.
 
-An Argilla instance was deployed on HuggingFace to validate the recorded signs. This platform facilitated the annotation of videos containing potentially ambiguous signs. The setup of this environment is managed by the https://github.com/LSE-UR/LSE-UR/blob/main/argilabueno.py script. Through a collaborative effort with the Asociación de Personas Sordas de La Rioja (ASR), we successfully confirmed the accuracy of the questionable signs.
+An Argilla instance was deployed on HuggingFace to validate the recorded signs. This platform facilitated the annotation of videos containing potentially ambiguous signs. The setup of this environment is managed by the https://github.com/LSE-UR/LSE-UR/blob/main/argilabueno.py script. Through a collaborative effort with the _Asociación de Personas Sordas de La Rioja (ASR)_, we successfully confirmed the accuracy of the questionable signs.
 
 
 ## Dataset Structure
