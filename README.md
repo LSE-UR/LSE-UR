@@ -1,7 +1,7 @@
 # LSE-UR Dataset
 
 
-This repository contains the code necessary to obtain the data presented in the paper "LSE-UR dataset, the dataset for the Spanish sign language"
+This repository contains the code necessary to obtain the data presented in the paper "LSE-UR dataset, the dataset for the Spanish Sign Language"
 
 ## Download
 
