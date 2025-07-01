@@ -1,7 +1,5 @@
 # LSE-UR Dataset
 
-This repository contains the code necessary to 
-
 
 This repository contains the code necessary to obtain the data presented in the paper "LSE-UR dataset, the dataset for the Spanish sign language"
 
@@ -22,6 +20,12 @@ An Argilla instance was deployed on HuggingFace to validate the recorded signs. 
 ## Dataset Structure
 ```
 BBDD_PATH
+├── Macro_CambioContraste_GenerarVideo.ijm
+├── argilabueno.py
+├── cambiar_nombre.py
+├── dual_camera_modify_record2Cams.py
+├── extract_full_body_skeleton_landmarks_videos_txt.py
+├── realsense_and_dual_camera_modify_final.py
 ├── VIDEOS
 │   ├── *.avi
 │   ├── *.mp4
