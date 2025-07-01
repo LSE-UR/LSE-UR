@@ -69,15 +69,10 @@ xxx
 ## Contacts
 
 - Mayra Vanessa Alvear, maalvear@unirioja.es, vanessa.alvear@irsoluciones.es
-
 - Jónathan Heras, jonathan.heras@unirioja.es
-
 - Gadea Mata, gadea.mata@unirioja.es
-
 - César Domínguez, cesar.dominguez@unirioja.es
-
 - Miren Mirari San Martín Lacunza, mimartla@unirioja.es
-
 - Manuel García, manuel.garciad@unirioja.es
 
 
