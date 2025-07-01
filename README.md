@@ -1,4 +1,4 @@
-#LSE-UR Dataset
+# LSE-UR Dataset
 
 This repository contains the code necessary to 
 
@@ -6,7 +6,7 @@ This repository contains the code necessary to
 This repository contains the code necessary to obtain the data presented in the paper "LSE-UR dataset, the dataset for the Spanish sign language"
 
 
-##Repository Structure
+## Repository Structure
 
 The repository contains all scripts used in the creation and processing of the dataset. They are commented in order of their use in the paper. First, those used during data acquisition, https://github.com/LSE-UR/LSE-UR/blob/main/dual_camera_modify_record2Cams.py and https://github.com/LSE-UR/LSE-UR/blob/main/realsense_and_dual_camera_modify_final.py. As detailed in Section 4.3 "Collected Data" of the paper, these two scripts manage the video recording process.
 
