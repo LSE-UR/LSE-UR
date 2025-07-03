@@ -16,6 +16,9 @@ The LSE-UR dataset provides a considerable variety of multi-modal data compared 
 
 These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc.
 
+![lse](https://github.com/user-attachments/assets/c95fe793-1b75-400e-8277-89fec4e93b36)
+
+
 
 ## Dataset details
 
@@ -25,6 +28,8 @@ The dataset includes 35 signs performed by 43 subjects for 30 signs corresponds 
 ## Acquisition setup
 
 The acquisition experiment took place in two scenarios where an acquisition area at the University of La Rioja was reserved for the experimental setup. We present the _Biblioteca studio_ and the _Blanco studio_. In _Biblioteca studio_ an Orbbec Femto Mega camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. In _Blanco studio_ an  Intel RealSense Depth Camera D457 camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. The frontal camera is placed on a tripod has a distance of 1.50m.
+
+<img width="748" alt="name_studios" src="https://github.com/user-attachments/assets/5806d08c-2ef4-4d94-a947-166d3d5ab879" />
 
 
 ## Repository Structure
