@@ -71,6 +71,4 @@ The authors would like to thank XXXX.
 Please cite this paper if you want to use this dataset in your research (papers, book chapters, conference proceedings, software, etc)
 xxx
 
-## Contacts
-XXX
 
