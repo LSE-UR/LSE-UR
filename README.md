@@ -5,23 +5,23 @@ This repository contains the code necessary to obtain the data presented in the 
 
 ## Download
 
-The full dataset can be downloaded at this website xx. The corresponding compressed folders (.zip). This link do NOT include other data than those in the reference paper.
+The full dataset can be downloaded at this website xx. The corresponding compressed folders (.zip). This link does NOT include other data than that in the reference paper.
 
 
 ## Overview
 
-The LSE-UR is an online, public, and available dataset for the Spanish Sign Language (LSE, acronym in spanish). It has a variety of modalities and, as far as we know, is an order of magnitude larger than any other LSE dataset in terms of the number of videos and recording duration. It is remarkable the fact that it is built in different scenarios, it has multiple perspectives of the same action from a multi-camera system, which allows us to have diversity in the quality of the videos, which enables multimodal learning.
+The LSE-UR is an online, public, and available dataset for the Spanish Sign Language (LSE, acronym in Spanish). It has a variety of modalities and, as far as we know, is an order of magnitude larger than any other LSE dataset in terms of the number of videos and recording duration. It is remarkable the fact that it is built in different scenarios, it has multiple perspectives of the same action from a multi-camera system, which allows us to have diversity in the quality of the videos, which enables multimodal learning.
 
-The LSE-UR dataset provides a considerable variety of multi-modal data compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
+The LSE-UR dataset provides a considerable variety of data modality compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
 
-These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc. 
+These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains, such as sign language translation, sign language recognition, human action recognition, etc. 
 
 ![lse](https://github.com/LSE-UR/LSE-UR/blob/main/samples_dataset_blurred.png)
 
 
 ## Dataset details
 
-The dataset includes 35 signs performed by 43 subjects for 30 signs corresponds to the LSE alphabet composed of fingerspelled  letters, and five selected signs were based on daily life social activities, which are Buenos días, Buenas tardes, Buenas noches, Gracias, and Aplausos. For translation in English, these actions are Good morning, Good afternoon, Good night, Thank you, and Clapping.
+The dataset includes 35 signs performed by 43 subjects for 30 signs, corresponding to the LSE alphabet composed of fingerspelled  letters, and five selected signs were based on daily life social activities, which are Buenos días, Buenas tardes, Buenas noches, Gracias, and Aplausos. For translation in English, these actions are Good morning, Good afternoon, Good night, Thank you, and Clapping.
 
 
 ## Acquisition setup
@@ -34,7 +34,7 @@ The acquisition experiment took place in two scenarios where an acquisition area
 
 ## Repository Structure
 
-The repository contains all scripts used in the creation and processing of the dataset. They are commented in order of their use in the paper. First, those used during data acquisition, https://github.com/LSE-UR/LSE-UR/blob/main/dual_camera_modify_record2Cams.py and https://github.com/LSE-UR/LSE-UR/blob/main/realsense_and_dual_camera_modify_final.py. As detailed in Section 4.3 "Collected Data" of the paper, these two scripts manage the video recording process.
+The repository contains all scripts used in the creation and processing of the dataset. They are commented on in order of their use in the paper. First, those used during data acquisition, https://github.com/LSE-UR/LSE-UR/blob/main/dual_camera_modify_record2Cams.py and https://github.com/LSE-UR/LSE-UR/blob/main/realsense_and_dual_camera_modify_final.py. As detailed in Section 4.3 "Collected Data" of the paper, these two scripts manage the video recording process.
 
 Following video acquisition, a preprocessing step is required to ensure proper visualisation. Video preprocessing is performed using the Fiji tool and involves executing the script located at https://github.com/LSE-UR/LSE-UR/blob/main/Macro_CambioContraste_GenerarVideo.ijm. As outlined in Section 4.3 "Collected Data" of the paper, this script normalises video contrast to facilitate viewing. Subsequently, the script https://github.com/LSE-UR/LSE-UR/blob/main/cambiar_nombre.py renames the videos in accordance with the established annotation scheme, also detailed in Section 4.3 "Collected Data".
 
