@@ -14,7 +14,7 @@ The LSE-UR is an online, public, and available dataset for the Spanish Sign Lang
 
 The LSE-UR dataset provides a considerable variety of multi-modal data compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
 
-These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc.
+These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc. 
 
 ![lse](https://github.com/LSE-UR/LSE-UR/blob/main/samples_dataset_blurred.png)
 
@@ -26,7 +26,7 @@ The dataset includes 35 signs performed by 43 subjects for 30 signs corresponds 
 
 ## Acquisition setup
 
-The acquisition experiment took place in two scenarios where an acquisition area at the University of La Rioja was reserved for the experimental setup. We present the _Biblioteca studio_ and the _Blanco studio_. In _Biblioteca studio_ an Orbbec Femto Mega camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. In _Blanco studio_ an  Intel RealSense Depth Camera D457 camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. The frontal camera is placed on a tripod has a distance of 1.50m.
+The acquisition experiment took place in two scenarios where an acquisition area at the University of La Rioja was reserved for the experimental setup. We present the _Library scenario_ and the _White scenario_. In _Library scenario_ an Orbbec Femto Mega camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. In _White scenario_ an  Intel RealSense Depth Camera D457 camera is placed in front of the operator and the table where two cameras at both sides: Microsoft LifeCam HD-3000 USB and Logitech Brio Webcam 4k UltraHD. The frontal camera is placed on a tripod has a distance of 1 meter. The nex figure shows the sketch of the acquisition setup. (a) On the left, the\textit{ Library scenario}, on the right, the devices and their corresponding distances are detailed. (b) On the left, the \textit{White scenario}, on the right, the devices and their corresponding distances are detailed.
 
 
 <img width="960" height="540" alt="scenarios_dataset" src="https://github.com/user-attachments/assets/72ccc024-d67b-416e-9ac8-d4b481fa7bbb" />
@@ -36,7 +36,7 @@ The acquisition experiment took place in two scenarios where an acquisition area
 
 The repository contains all scripts used in the creation and processing of the dataset. They are commented in order of their use in the paper. First, those used during data acquisition, https://github.com/LSE-UR/LSE-UR/blob/main/dual_camera_modify_record2Cams.py and https://github.com/LSE-UR/LSE-UR/blob/main/realsense_and_dual_camera_modify_final.py. As detailed in Section 4.3 "Collected Data" of the paper, these two scripts manage the video recording process.
 
-Following video acquisition, a preprocessing step is required to ensure proper visualization. Video preprocessing is performed using the Fiji tool and involves executing the script located at https://github.com/LSE-UR/LSE-UR/blob/main/Macro_CambioContraste_GenerarVideo.ijm. As outlined in Section 4.3 "Collected Data" of the paper, this script normalizes video contrast to facilitate viewing. Subsequently, the script https://github.com/LSE-UR/LSE-UR/blob/main/cambiar_nombre.py renames the videos in accordance to the established annotation scheme, also detailed in Section 4.3 "Collected Data".
+Following video acquisition, a preprocessing step is required to ensure proper visualisation. Video preprocessing is performed using the Fiji tool and involves executing the script located at https://github.com/LSE-UR/LSE-UR/blob/main/Macro_CambioContraste_GenerarVideo.ijm. As outlined in Section 4.3 "Collected Data" of the paper, this script normalises video contrast to facilitate viewing. Subsequently, the script https://github.com/LSE-UR/LSE-UR/blob/main/cambiar_nombre.py renames the videos in accordance with the established annotation scheme, also detailed in Section 4.3 "Collected Data".
 
 With all videos prepared, the script https://github.com/LSE-UR/LSE-UR/blob/main/extract_full_body_skeleton_landmarks_videos_txt.py can then be executed. This script will store the full-body skeletons of subjects present in the videos within the designated output directory.
 
