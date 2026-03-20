@@ -12,7 +12,7 @@ The full dataset can be downloaded at this website xx. The corresponding compres
 
 The LSE-UR is an online, public, and available dataset for the Spanish Sign Language (LSE, acronym in Spanish). It has a variety of modalities and, as far as we know, is an order of magnitude larger than any other LSE dataset in terms of the number of videos and recording duration. It is remarkable the fact that it is built in different scenarios, it has multiple perspectives of the same action from a multi-camera system, which allows us to have diversity in the quality of the videos, which enables multimodal learning.
 
-The LSE-UR dataset provides a considerable variety of data modality compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
+The LSE-UR dataset provides a considerable variety of data modalities compared to existing datasets. Four types of simultaneous data are supplied: RGB frames, Depth maps, IR frames, and Skeleton data.
 
 These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains, such as sign language translation, sign language recognition, human action recognition, etc. 
 
@@ -64,20 +64,13 @@ BBDD_PATH
 
 ## Acknowledgements
 
-The authors would like to thank .....
+The authors would like to thank XXXX.
 
 ## Cite this dataset
 
 Please cite this paper if you want to use this dataset in your research (papers, book chapters, conference proceedings, software, etc)
 xxx
 
-## Contacts
 
-- Mayra Vanessa Alvear, maalvear@unirioja.es, vanessa.alvear@irsoluciones.com
-- Jónathan Heras, jonathan.heras@unirioja.es
-- Gadea Mata, gadea.mata@unirioja.es
-- César Domínguez, cesar.dominguez@unirioja.es
-- Miren Mirari San Martín Lacunza, mimartla@unirioja.es
-- Manuel García, manuel.garciad@unirioja.es
 
 
