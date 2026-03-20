@@ -16,7 +16,7 @@ The LSE-UR dataset provides a considerable variety of multi-modal data compared 
 
 These data allow the research community to make consistent comparisons among processing approaches or machine learning approaches by using one or more data modalities. Researchers in computer vision and machine learning can use/reuse the data for different investigations in different application domains such as sign language translation, sign language recognition, human action recognition, etc.
 
-<img width="960" height="540" alt="scenarios_dataset" src="https://github.com/user-attachments/assets/a507b94b-1559-471c-9998-14d45d54e988" />
+![lse](<img width="960" height="540" alt="scenarios_dataset" src="https://github.com/user-attachments/assets/a507b94b-1559-471c-9998-14d45d54e988" />)
 
 
 
