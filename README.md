@@ -21,7 +21,7 @@ These data allow the research community to make consistent comparisons among pro
 
 ## Dataset details
 
-The dataset includes 35 signs performed by 43 subjects for 30 signs, corresponding to the LSE alphabet composed of fingerspelled  letters, and 5 selected signs were based on daily life social activities, which are Buenos días, Buenas tardes, Buenas noches, Gracias, and Aplausos. For translation in English, these actions are Good morning, Good afternoon, Good night, Thank you, and Clapping.
+The dataset includes 35 signs performed by 43 subjects. 30 signs of them correspond to the LSE alphabet composed of fingerspelled letters, and 5 selected signs were based on daily life social activities, which are Buenos días, Buenas tardes, Buenas noches, Gracias, and Aplausos. For translation in English, these actions are Good morning, Good afternoon, Good night, Thank you, and Clapping.
 
 
 ## Acquisition setup
