@@ -64,11 +64,16 @@ BBDD_PATH
 
 ## Acknowledgements
 
-The authors would like to thank XXXX.
+This work was partially supported by the Government of La Rioja through Proyecto INICIA 2023/01 and Grant PID2023-147098NB-I00 and PID2024-155834NB-I00 by MICIU/AEI/10.13039/501100011033 and by ERDF/EU. 
 
 ## Cite this dataset
 
-Please cite this paper if you want to use this dataset in your research (papers, book chapters, conference proceedings, software, etc)
-xxx
+Please cite this paper if you want to use this dataset in your research (papers, book chapters, conference proceedings, software, etc).
+- Mirari San-Martín
+- Vanessa Alvear
+- Manuel García-Domínguez
+- César Domínguez
+- Jónathan Heras
+- Gadea Mata
 
 
