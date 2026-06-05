@@ -5,7 +5,7 @@ This repository contains the necessary code to obtain the data presented in the 
 
 ## Download
 
-The full dataset can be downloaded at this website xx. The corresponding compressed folders (.zip). This link does NOT include other data than that in the reference paper.
+The full dataset can be downloaded at this [website](https://huggingface.co/datasets/LSE-UR/LSE-dataset). The corresponding compressed folders (.zip) and the annotations. This link does NOT include other data than that in the reference paper.
 
 
 ## Overview
