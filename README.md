@@ -5,7 +5,7 @@ This repository contains the necessary code to obtain the data presented in the 
 
 ## Download
 
-The full dataset can be downloaded at this [website](https://huggingface.co/datasets/LSE-UR/LSE-dataset). The corresponding compressed folders (.zip) and the annotations per video. This link does NOT include other data than that in the reference paper. Each file contains a part of the dataset with a size of 4.7 GB and is collected in _Split ZIP archive_ format. To extract the videos, it is necessary to download all these files and the .zip folder.
+The full dataset can be downloaded at this [website](https://huggingface.co/datasets/LSE-UR/LSE-dataset), where the corresponding compressed folders and the annotations per video are. This link does NOT include other data than that in the reference paper. Each file contains a part of the dataset with a size of 4.7 GB and is collected in _Split ZIP archive_ format. To extract the videos, it is necessary to download all these files and the .zip folder.
 
 
 ## Overview
