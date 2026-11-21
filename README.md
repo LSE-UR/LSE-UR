@@ -1,7 +1,9 @@
 # LSE-UR Dataset
 
 
-This repository contains the necessary code to obtain the data presented in the paper "LSE-UR dataset, the dataset for the Spanish Sign Language"
+This repository contains the necessary code to obtain the data presented in the article: "LSE-UR: towards a multi-view and multi-camera dataset for Spanish Sign Language" and is partially published in:
+
+- M. San-Martin, V. Alvear, M. García-Domínguez, C. Domínguez, J. Heras, G. Mata. "LSE-UR: towards a multi-view and multi-camera dataset for Spanish Sign Language", Proceedings of the Projects and System Demonstration session of the 42th Annual International Conference of the Spanish Association for Natural Language Processing, 2026, CEUR Workshop Proceedings, Vol. 4301, ISSN 1613-0073.
 
 ## Download
 
